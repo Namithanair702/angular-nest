@@ -1,0 +1,39 @@
+.home-image {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.home-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.about-us {
+  background-color: #f8f9fa;
+}
+
+.about-us h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.about-us p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.characteristics h2 {
+  font-weight: bold;
+}
+
+.characteristics .card {
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+
+.characteristics .card i {
+  font-size: 50px;
+}

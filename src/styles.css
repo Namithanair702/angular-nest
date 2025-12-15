@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+router-outlet {
+  flex: 1;
+}
+.carousel-inner img {
+  height: 380px;
+  object-fit: cover;
+}
+.about-us-full {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #0a1f44;
+  line-height: 1.8;
+  background-color: #e0f0ff;
+  padding: 50px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.about-us-full .about-text {
+  flex: 1;
+  font-style: italic;
+  font-weight: 700;
+}
+
+.about-us-full img {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
+  border: 4px solid #0a1f44;
+  border-radius: 12px;
+}
